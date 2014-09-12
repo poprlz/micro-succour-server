@@ -1,0 +1,18 @@
+extends ../layout
+block content
+    div(class="ui form segment")
+        div(class="field")
+            label Username
+            div(class="ui left labeled icon input")
+                input(type="text",placeholder="Username")
+                i(class="user icon")
+                div(class="ui corner label")
+                    i(class="icon asterisk")
+        div(class="field")
+            label Password
+            div(class="ui left labeled icon input")
+                input(type="password")
+                i(class="lock icon")
+                div(class="ui corner label")
+                    i(class="icon asterisk")
+        div(class="ui blue submit button") Login

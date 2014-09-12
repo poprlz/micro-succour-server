@@ -1,0 +1,21 @@
+doctype html
+html(ng-app="#{ngAppName}")
+    head
+        title= title
+        link(rel='stylesheet', href='/css/semantic.min.css')
+        script(type="application/javascript" src="/js/angular/angular.min.js")
+        script(type="application/javascript" src="/js/angular/angular-route.min.js")
+    body
+        div(class="ui pointing  menu")
+            a(class="item")
+                i(class="home icon")
+                | Home
+            a(class="item")
+                i(class="mail icon")
+                | Messages
+        div(class="ui segment")
+            block content
+        div(class="ui segment")
+            | QQ:4412293
+
+        block scriptResource
